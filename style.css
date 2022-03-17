@@ -45,6 +45,7 @@ html{
     scroll-padding-top:6rem ;
     scroll-behavior: smooth;
 }
+
 /*mesmo btn para toda papgina */
 .btn{ 
     background: var(--laranja);
@@ -356,6 +357,7 @@ span .space{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    padding: 0 2rem
 
 }
 
@@ -461,6 +463,7 @@ span .space{
     grid-template-columns: repeat(3, 1fr);
     flex-wrap: wrap;
     gap: 1.5rem;
+    padding: 0 2rem
 }
 
 .gallery .box-container .box{
@@ -556,6 +559,7 @@ span .space{
     flex-wrap: wrap;
     gap: 1.5rem;
     align-items: center;
+    padding: 0 2rem
 }
 
 .contact .row .image {
@@ -607,6 +611,7 @@ span .space{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    padding: 0 2rem
 }
 
 .footer .box-container .box{
