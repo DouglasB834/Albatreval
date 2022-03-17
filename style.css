@@ -653,19 +653,13 @@ span .space{
     border-top: .1rem solid rgba(102, 102, 102, 0.418);
 }
 
-.footer .End span{
+.footer .End span ,.credits span{
     color: var(--laranja);
 }
 
-
-
-
-
-
-
-
-
-
+.footer .credits{
+    color: rgb(209, 209, 209);
+}
 
 
 
