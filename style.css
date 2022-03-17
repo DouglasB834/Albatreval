@@ -304,7 +304,6 @@ text-align: center;
 
 }
 
-
 /*-- ==== Estilo do Book Now ==== --*/
 span .space{
     background:none;
@@ -319,6 +318,7 @@ span .space{
 
 .book .row .image{
     flex: 1 1 40rem; /*poderia ter usado width 40% */
+    text-align: center;
 }
 
 .book .row image img{
@@ -381,13 +381,12 @@ span .space{
 }
 
 .packages .box-container .content{
-    padding: 2rem;
-    
+    padding: 2rem;  
 }
+
 .packages .box-container .content h3{
     font-size: 2rem;
     color: #333;
-
 }
 
 .packages .box-container .content h3 i{
@@ -502,13 +501,12 @@ span .space{
     font-weight: 600;
     color: var(--laranja);
 }
+
 .gallery .box-container p{
     font-size: 1.5rem;
     color: #fff;
     padding: .5rem 0;
 }
-
-/* ==== Stilo slide Review ==== */
 
 /* ==== Stilo slide Review ==== */
 
@@ -565,6 +563,7 @@ span .space{
 .contact .row .image {
     flex: 1 1 35rem;
 }
+
 .contact .row .image img{
     width: 100%;
 }
@@ -591,11 +590,13 @@ span .space{
     background: #e7e7e7;
     text-decoration: none;
 }
+
 .contact .row form textarea{
     height: 15rem;
     width: 100%;
     resize: none;
 }
+
 /* ==== Stilo Brand ===== */
 .brand-container{
     text-align: center;
@@ -617,7 +618,6 @@ span .space{
 .footer .box-container .box{
     padding: 1rem 0;
     flex: 1 1 25rem ;
-
 }
 
 .footer .box-container .box h3{
@@ -663,6 +663,7 @@ span .space{
 
 
 
+
 @media (max-width:1200px){
 
     html{
@@ -684,7 +685,6 @@ span .space{
 
 }
 @media (max-width:780px){
-
     #menu-bar{
         display: initial;
     }
@@ -711,7 +711,8 @@ span .space{
         border-radius: .5rem;
         text-align: center;   
              
-    }    
+    }   
+ 
     header .navbar a:hover{
         background: #333;
     }
@@ -723,19 +724,22 @@ span .space{
 }
 
 @media (max-width:480px){
-
     html{
         font-size:50%;
     }
+ 
     .gallery .box-container{        
         grid-template-columns: 1fr;        
     }
+ 
     .book .row .image img{
         width: 80%;/*poderia ter usado width 40% */
     }
+ 
     .contact .row form .inputBox input{
         width: 100%;
     }
+ 
     .footer .box-container{
         display: grid;
         grid-template-columns: 1fr 1fr ;
