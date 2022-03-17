@@ -631,20 +631,22 @@
                 <img src="https://freesvg.org/img/travel-map.png" alt="avião sobre plane">
             </div>
 
-            <!-- start Form  -->
-            <form >
+            <!-- start Form  usando https://www.staticforms.xyz/  -->
+            <form action="https://api.staticforms.xyz/submit" method="POST" >
+                <input type="hidden" name="accessKey"       value="c50a5837-3ea1-4234-a8d8-d5db204982ce">
+                <input type="hidden" name="redirectTo" value="https://douglasb834.github.io/Albatreval/">
                 
                 <div class="inputBox">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
+                    <input type="text" name="name" placeholder="Nome">
+                    <input type="email" name="email" placeholder="Email" required >
                 </div>
                 
                 <div class="inputBox">
-                    <input type="number" placeholder="Numero">
-                    <input type="text" placeholder="Objetivo">
+                    <input type="number" name="phone" placeholder="Numero" required >
+                    <input type="text"  placeholder="Objetivo">
                 </div>
                 
-                <textarea placeholder="mensagem" name=" mensagem" id="msg" cols="30" rows="10"></textarea>
+                <textarea placeholder="mensagem" name="message" id="msg" cols="30" rows="10"required ></textarea>
                 <input type="submit" class="btn" value="Enviar mensagem">
                 
             </form> <!-- end Form  -->
