@@ -645,7 +645,7 @@ span .space{
 }
 .footer .box-container .box a:hover i{
     color: var(--cor);
-    text-decoration: underline;
+    
 }
 
 
