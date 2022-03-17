@@ -135,9 +135,6 @@ vbtn.addEventListener('click',(enviar)=> {//submit nao esta ficando Default
 
     })
 
-
-
-
-
 } 
 window.onload =iniciar
+//existe atitudes melhores que atitudes . ideias melhore que ideias . porem nao existe uma pessoa melhor que a outra (nao existe um ser melhor que outro )
