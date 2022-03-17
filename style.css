@@ -658,7 +658,10 @@ span .space{
 }
 
 .footer .credits{
+    font-size: 1.4rem;
     color: rgb(209, 209, 209);
+    padding-bottom:1rem ;
+    padding-left: .7rem;
 }
 
 
