@@ -10,7 +10,6 @@ const iniciar =()=>{
     
     let videoBtn = document.querySelectorAll('.vid-btn')//ALL para todos VidBtn
     
-    
     window.onscroll =()=> {
         searchBtn.classList.remove('fa-times');
         searchBar.classList.remove('active');

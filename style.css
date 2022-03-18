@@ -600,7 +600,12 @@ span .space{
 /* ==== Stilo Brand ===== */
 .brand-container{
     text-align: center;
+    cursor: pointer;
+}
+
+.brand-container #brand-logo{
     overflow: hidden;
+   
 }
 
 /* ===== Stilo footer ======= */
