@@ -31,7 +31,6 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none ;
-    
     transition: all .2s linear; 
    /* qualquer animação com hover ou focus dalay */
 }
