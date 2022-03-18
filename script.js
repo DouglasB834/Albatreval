@@ -21,8 +21,8 @@ const iniciar =()=>{
     }
     
     menu.addEventListener('click', ()=>{
-        menu.classList.toggle('fa-times');//X pesquisa
-        navbar.classList.toggle('active');//tag dentro css
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('active');
     });
     
     searchBtn.addEventListener('click', ()=>{
@@ -103,7 +103,7 @@ const small2= document.querySelector(".p2");
     
 // ====== VALIDAÇÃO LOGIN  ===========
     
-vbtn.addEventListener('click',(enviar)=> {//submit nao esta ficando Default
+vbtn.addEventListener('click',(enviar)=> {
     const userEmail = email.value.trim();//tira os espaço, nao envia vazio função/metodo js . 
     const userpwd = password.value.trim();
 
