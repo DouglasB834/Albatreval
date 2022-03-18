@@ -8,8 +8,8 @@
 }
 
 .heading  span{
-    color: var(--laranja);
-    background: rgb(255, 165,0 ,.3);
+    color: var(--azul);
+    background: rgba(0, 140, 255, 0.3);
     font-size: 3.5rem;
     border-radius: .5rem;
     display: inline-block;
@@ -23,18 +23,20 @@
 /*criar variável*/
 :root{
     --laranja:#ffa500;
-}
+    --azul:#2D56B2;
+}   
 *{
     font-family: 'Nunito', sans-serif;
     margin: 0; padding: 0;
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none ;
-     /* transition: all .2s linear;  */
+    
+    transition: all .2s linear; 
    /* qualquer animação com hover ou focus dalay */
 }
 *::selection{
-    background-color: var(--laranja);
+    background-color: var(--azul);
     color: #fff;
 }
 
@@ -300,7 +302,7 @@ text-align: center;
 }
 
 .home .controls .vid-btn.active {
-    background: var(--laranja);
+    background: var(--azul);
 
 }
 
