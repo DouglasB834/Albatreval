@@ -600,11 +600,11 @@ span .space{
 /* ==== Stilo Brand ===== */
 .brand-container{
     text-align: center;
-    cursor: pointer;
+    overflow: hidden;
 }
 
 .brand-container #brand-logo{
-    overflow: hidden;
+  cursor: pointer;
    
 }
 
@@ -748,7 +748,8 @@ span .space{
 
 @media (max-width:500px){
     html{
-        font-size:50%;
+        font-size:50%;  
+        
     }
  
     .gallery .box-container{        
@@ -768,4 +769,5 @@ span .space{
         grid-template-columns: 1fr 1fr ;
 
     }
+    
 }

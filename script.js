@@ -10,7 +10,7 @@ const iniciar =()=>{
     
     let videoBtn = document.querySelectorAll('.vid-btn')//ALL para todos VidBtn
     
-    window.onscroll =()=> {
+    window.onscroll = () => {
         searchBtn.classList.remove('fa-times');
         searchBar.classList.remove('active');
         menu.classList.remove('fa-times');
@@ -36,6 +36,7 @@ const iniciar =()=>{
     formClose.addEventListener('click', ()=>{
         loginForm.classList.remove('active')
     });
+
     //forEach função de callback parece um For ou Map percorre toda class 
     videoBtn.forEach (btn =>{
         btn.addEventListener('click', ()=>{//função ao clickar 
