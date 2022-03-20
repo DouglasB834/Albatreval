@@ -272,6 +272,10 @@ text-align: center;
     text-shadow: 0 .3rem .5rem rgb(0, 0, 0,.2) ;
     color: #fff;
 }
+.home .content p span{
+    text-decoration: underline;
+    
+}
 
 .home .video-container video {
     position: absolute;
