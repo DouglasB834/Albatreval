@@ -70,7 +70,7 @@ header{
     display: flex;
     align-items: center;
     justify-content:  space-between;/*separar os itens */
-    z-index: 1000; /*pra sempre ficar na camada da frente */
+    z-index: 1; /* 1pra sempre ficar na camada da frente */
     padding: 2rem 9%;
 }
 
@@ -116,7 +116,7 @@ header .search-bar-container{
     top: 100%; left: 0; right: 0;
     padding: 1.5rem 2rem;
     border-top: .1rem solid rgba(252, 252, 252, 0.192);
-    z-index: 1001;/*lembrando que o outro foi 1000*/
+    z-index: 5;/*lembrando que o outro foi 1*/
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /*  no developer.mozilla, vc consegui configurar e ver qual e melhor para fazer subir ou aparecer  etc*/
     display: flex;
     align-items: center;
@@ -157,7 +157,7 @@ header .search-bar-container label:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1001;/* mudar se for precisso 10000*/
+    z-index: 5;/* mudar se for precisso 1*/
 }
 small {
     margin: auto;
@@ -279,7 +279,8 @@ text-align: center;
     height: 100%;
     width: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: -1; /* pos videos ficarem atrás header e home */
+    
 }
 
 .home .controls{
