@@ -157,7 +157,7 @@ header .search-bar-container label:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 5;/* mudar se for precisso 1*/
+    z-index: 101;/* mudar se for precisso 1*/
 }
 small {
     margin: auto;

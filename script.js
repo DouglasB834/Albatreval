@@ -37,18 +37,20 @@ const iniciar =()=>{
         loginForm.classList.remove('active')
     });
 
-    //forEach função de callback parece um For ou Map percorre toda class 
-    videoBtn.forEach (btn =>{
-        btn.addEventListener('click', ()=>{//função ao clickar 
-            document.querySelector('.controls .active').classList.remove('active');//remover click 
-            btn.classList.add('active');// adicionar os elmentos abaixo 
-            let src =btn.getAttribute('data-src');
-            document.querySelector('#video-slider').src =src; //puxa os outro videos
-            
-        });
-        
-    });
+    // ========== Slider menu incial dificl o simples esta no final   ==========
     
+    //forEach função de callback parece um For ou Map percorre toda class 
+    // videoBtn.forEach (btn =>{
+    //     btn.addEventListener('click', ()=>{//função ao clickar 
+    //         document.querySelector('.controls .active').classList.remove('active');//remover click 
+    //         btn.classList.add('active');// adicionar os elmentos abaixo 
+    //         let src =btn.getAttribute('data-src'); // add atributo data src
+    //         document.querySelector('#video-slider').src =src; //puxa os outro videos
+            
+    //     });
+        
+    // });
+
     var swiper = new Swiper(".container-slider", {
         spaceBetween:20 ,
         loo:true,
@@ -134,7 +136,29 @@ vbtn.addEventListener('click',(enviar)=> {
 
 
     })
+    
 
 } 
 window.onload =iniciar
 //existe atitudes melhores que atitudes . ideias melhore que ideias . porem nao existe uma pessoa melhor que a outra (nao existe um ser melhor que outro )
+
+// slide simples 
+
+function img1 (){
+    document.querySelector('#video1').src="images/vid-1.mp4";
+    btn.classList.add('active')
+}
+function img2 (){
+    document.querySelector('#video1').src="images/vid-2.mp4";
+    btn.classList.add('active')
+}
+
+function img3 (){
+    document.querySelector('#video1').src="images/vid-3.mp4";
+}
+
+function img4 (){
+    document.querySelector('#video1').src="images/vid-4.mp4";
+}
+
+
