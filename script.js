@@ -153,9 +153,9 @@ function img2 (){
     btn.classList.add('active')
 }
 
-// function img3 (){
-//     document.querySelector('#video1').src="images/vid-3.mp4";
-// }
+function img3 (){
+    document.querySelector('#video1').src="images/vid-3.mp4";
+}
 
 function img4 (){
     document.querySelector('#video1').src="images/vid-4.mp4";
